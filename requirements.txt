@@ -1,0 +1,2 @@
+tensorflow
+mediapipe-model-maker
