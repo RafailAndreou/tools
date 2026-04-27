@@ -1,2 +1,3 @@
-tensorflow
-mediapipe-model-maker
+tensorflow==2.15.1
+mediapipe-model-maker==0.2.1.4
+opencv-python
