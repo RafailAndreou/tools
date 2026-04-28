@@ -4,7 +4,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
 # Paths to your .task files
-MODEL_PATH = 'model_output_middlefinger_gesture/gesture_recognizer.task' # Update this to your file path
+MODEL_PATH = 'model_output_middle_finger/gesture_recognizer.task' # Update this to your file path
 
 def run_live_inference(model_path):
     # Initialize the detector/recognizer
