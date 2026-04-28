@@ -2,7 +2,7 @@ import cv2
 import os
 import time
 
-def collect_images(gesture_dir, none_dir, gesture_name, min_samples=40):
+def collect_images(gesture_dir, none_dir, gesture_name, min_samples=100):
     """Opens camera and returns True if user is ready to train."""
     cap = cv2.VideoCapture(0)
     count_g = len(os.listdir(gesture_dir))
